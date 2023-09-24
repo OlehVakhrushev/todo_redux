@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+.task-button{
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.button-complete{
+  color: #ff6c6c;
+}
+
+.button-edit{
+  color: #e2d029;
+
+}
+
+.button-delete{
+  color: #0910b0;
+}
+
+.complete{
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #ff6c6c;
+  opacity: 0.6;
+}
